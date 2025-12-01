@@ -167,7 +167,7 @@ const DEFAULT_SUB_DOMAIN = "sub.cmliussss.net";  // 真实订阅源（用于聚�
 
 <img width="1113" height="870" alt="image" src="https://github.com/user-attachments/assets/1c215f82-98fc-42d0-aed5-2bd032e3b859" />
 
-这样pages github部署方法就完成了
+**这样pages github上传部署方法就完成了**
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -196,6 +196,8 @@ const DEFAULT_SUB_DOMAIN = "sub.cmliussss.net";  // 真实订阅源（用于聚�
 <img width="1330" height="667" alt="image" src="https://github.com/user-attachments/assets/5dec9d85-9fcb-4b95-89c6-a7d8c57be661" />
 
 **点击部署站点 完成**
+
+**这样pages 上传部署方法就完成了**
 
 
 
