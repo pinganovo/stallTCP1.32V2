@@ -6,18 +6,15 @@ import/**/{/**/connect as $c/**/}/**/from/**/'cloudflare:sockets';const _=o=>$c(
 
 // --- 基础账号与网络配置 ---
 let UUID = "06b65903-406d-4a41-8463-6fd5c0ee7798"; //修改可用的uuid
-const WEB_PASSWORD = "123456";  //修改你的登录密码
+const WEB_PASSWORD = "pd";  //修改你的登录密码
 const SUB_PASSWORD = "123456";  //修改你的订阅密码
 const DEFAULT_PROXY_IP = atob("UHJveHlJUC5VUy5DTUxpdXNzc3MubmV0"); // 支持多ProxyIP，使用逗号分隔
 const DEFAULT_SUB_DOMAIN = atob("c3ViLmNtbGl1c3Nzcy5uZXQ=");      // 支持多订阅域名，使用逗号分隔
 const DEFAULT_CONVERTER = atob("aHR0cHM6Ly9zdWJhcGkuY21saXVzc3NzLm5ldA=="); // 支持多转换器，使用逗号分隔
 
 // --- 界面与链接配置 ---
-const LOGIN_PAGE_TITLE = "Worker Login"; // 修改你的登录页标题
-const DASHBOARD_TITLE = "烈火控制台 · Glass LH"; //修改你的管理后台标题
-const TG_GROUP_URL = "https://t.me/zyssadmin";       // 登录页“交流群”链接
-const SITE_URL = "https://blog.2026565.xyz/";        // 登录页“天诚网站”链接
-const GITHUB_URL = "https://github.com/xtgm/stallTCP1.32V2"; // 登录页“项目直达”链接
+const LOGIN_PAGE_TITLE = "PD大王的后台"; // 修改你的登录页标题
+const DASHBOARD_TITLE = "哪里有美味蟹包"; //修改你的管理后台标题
 const PROXY_CHECK_URL = "https://kaic.hidns.co/";    // 后台 ProxyIP 检测跳转地址
 
 // --- 订阅转换配置文件 (支持环境变量覆盖) ---
@@ -791,12 +788,7 @@ function loginPage(tgGroup, siteUrl, githubUrl, pageTitle) {
         <input type="password" id="pwd" placeholder="请输入密码" autofocus autocomplete="new-password" onkeypress="if(event.keyCode===13)verify()">
         <div class="btn-group">
             <button class="btn-unlock" onclick="verify()">立即登陆</button>
-            <button class="btn-primary" onclick="window.open('${siteUrl}', '_blank')">天诚网站</button>
-        </div>
-        <div class="social-links">
-            <a href="javascript:void(0)" onclick="gh()" class="pill">🔥 烈火项目直达</a>
-            <a href="${tgGroup}" target="_blank" class="pill">✈️ 天诚交流群</a>
-        </div>
+         </div>
     </div>
 
     <script>
